@@ -41,8 +41,7 @@ def get_record(card):
     return record
 
 def main(position, location):
-    # Trial ends 2024-01-10
-    client = ZenRowsClient("14abe3a305e17e10f74d026eac6aac492337114b")
+    client = ZenRowsClient("Your id")
     url = get_url(position, location)
     records = [["Index", "Title", "Company", "Location", "Description", "Salary", "Date"]]
     links = []
